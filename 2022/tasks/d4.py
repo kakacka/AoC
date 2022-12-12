@@ -5,8 +5,10 @@ def get_elf_assignments(elf: str) -> range:
     min, max = elf.split("-")
     return range(int(min), int(max) + 1)
 
+
 def range_in_range(range1, range2):
     return range1.start >= range2.start and range1.stop <= range2.stop
+
 
 def range_overlap(range1, range2):
     return range1[0] in range2 or range1[-1] in range2

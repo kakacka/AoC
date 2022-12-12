@@ -1,10 +1,10 @@
 from os import path
 
-from tasks import d1, d2, d3, d4, d5
+from tasks import d1, d2, d3, d4, d5, d6
 from task import Task
 
 
-task_list = [d1.task, d2.task, d3.task, d4.task, d5.task]
+task_list = [d1.task, d2.task, d3.task, d4.task, d5.task, d6.task]
 
 
 def PrintResult(task: Task, answer1, answer2):
