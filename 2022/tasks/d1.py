@@ -5,7 +5,7 @@ def solve(input: list[str]):
     inventories = [0]
     idx = 0
     for calories in input:
-        if calories == "\n":
+        if len(calories) == 0:
             inventories.append(0)
             idx += 1
         else:

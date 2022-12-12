@@ -12,7 +12,7 @@ def range_overlap(range1, range2):
     return range1[0] in range2 or range1[-1] in range2
 
 
-def solve(input: str):
+def solve(input: list[str]):
     sum = 0
     sum2 = 0
     for pair in input:

@@ -2,7 +2,7 @@ from task import Task
 import string
 
 
-def solve(input: str):
+def solve(input: list[str]):
     sum1 = 0
     sum2 = 0
     for rucksack in input:

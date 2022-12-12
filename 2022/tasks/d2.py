@@ -21,7 +21,7 @@ def match_result(opponent: int, you: int):
     return 5  # lose
 
 
-def solve(input: str):
+def solve(input: list[str]):
     score1 = 0
     score2 = 0
     for match in input:
